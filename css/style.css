@@ -21,11 +21,11 @@ body {
     background-color: rgb(96, 96, 96);
 }
 
-/*
+
 .wrapper {
-    margin: 50px 50px;
+    padding: 50px 50px 0px;
 }
-*/
+
 
 .container {
     
@@ -54,6 +54,11 @@ body {
 .bottom-bar {
     background-color: grey;
     color: white;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.left-elements {
+    display: flex;
 }

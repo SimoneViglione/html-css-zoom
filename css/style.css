@@ -12,6 +12,7 @@ body {
     color: white;
     display: flex;
     justify-content: end;
+    margin-bottom: 30px;
 }
 
 .grey-bg {
@@ -23,7 +24,7 @@ body {
 
 
 .wrapper {
-    padding: 50px 50px 0px;
+    padding: 50px 50px 60px 5   0px;
 }
 
 
@@ -52,11 +53,17 @@ body {
 
 
 .bottom-bar {
-    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(47, 46, 46);
     color: white;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
 }
 
 .left-elements {

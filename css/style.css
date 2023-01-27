@@ -8,6 +8,9 @@
 body {
     background-color: black;
 }
+.header {
+    height: 50px;
+}
 
 .tr-corner {
     color: white;
@@ -24,16 +27,15 @@ body {
 
 
 .wrapper {
-    padding: 50px 50px 60px 50px;
+    margin: auto;
 }
 
 
 .container {
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    overflow-y: hidden;
+    overflow-y: scroll;
     margin: 50px;
 }
 
@@ -52,8 +54,8 @@ body {
 }
 
 
-.bottom-bar {
-    width: 100%;
+footer {
+    height: 80px;
     background-color: rgb(47, 46, 46);
     color: white;
     display: flex;
@@ -62,20 +64,7 @@ body {
     padding: 20px 10px;
 }
 
-.bottom-bar i {
-    font-size: 30px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-}
-
-.left-elements {
+.fr-left {
     display: flex;
-}
-
-.central-elements i {
-    padding-right: 5px;
-}
-
-.right-elements {
-    color: red;
+    flex-direction: column;
 }
